@@ -1,0 +1,8 @@
+ user_id      | int(6)      | NO   | PRI | 0                 |                             |
+| first_name   | varchar(15) | YES  |     | NULL              |                             |
+| last_name    | varchar(15) | YES  |     | NULL              |                             |
+| user         | varchar(15) | YES  |     | NULL              |                             |
+| password     | varchar(32) | YES  |     | NULL              |                             |
+| avatar       | varchar(70) | YES  |     | NULL              |                             |
+| last_login   | timestamp   | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
+| failed_login | int(3)      | YES  |     | NULL              |                             |
